@@ -1,28 +1,29 @@
+/*Estilo del cuerpo*/
 body{
     background-color:  rgba(143, 143, 143, 0.692);
     font-family: 'Saira Extra Condensed', sans-serif;;
 }
-
+/*Estilo del Subtitulo del footer*/
 footer h4{
     text-align: right;
 }
-
+/*Estilo de la lista del footer*/
 footer ul li{
     list-style: none;
     text-align: right;
     text-decoration: none;
 }
-
+/*Estilo del header*/
 header{
 border-bottom: 1px solid red;
     padding: 1px;
 }
-
+/*Estilo del logo en la navbar*/
 .navbar-brand img{
     width: 10rem;
     height: 4rem;
 }
-
+/*Estilo de las secciones - incluido boxmodel y flexbox*/
 main section h1{
     text-align: center;
     color: rgba(255, 30, 0, 0.815);
@@ -47,7 +48,7 @@ main section img{
     width: 34rem;
     height: 20rem;
 }
-
+/*Estilos de grids*/
 .grid-container{
     margin: 15px;
     /* DISPLAY GRID */
@@ -62,6 +63,7 @@ main section img{
     row-gap: 15px;
     column-gap: 25px;
 }
+/*Estillos de los items en grid*/
     .item-01{
         background-color: #5ec2c2;
         /* grid-column */
